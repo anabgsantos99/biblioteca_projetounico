@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "telacadastrofuncionaria", "telacadastrofuncionaria.csproj", "{161E322B-9547-45FF-A511-6D70DC51448E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Debug|x64.Build.0 = Debug|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Release|x64.ActiveCfg = Release|Any CPU
+		{161E322B-9547-45FF-A511-6D70DC51448E}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37AA1BBD-B056-42C7-A234-EA8570A6892E}
+	EndGlobalSection
+EndGlobal

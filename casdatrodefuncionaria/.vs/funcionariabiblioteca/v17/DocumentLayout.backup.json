@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodeatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodefuncionaria.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:telaatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodeatividades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodeatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:teladelogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|cadastrodefuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|cadastrodefuncionaria.csproj|solutionrelative:cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:telaatividades.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:telaatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodeatividades.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cadastrodeatividades.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.Designer.cs",
+              "RelativeDocumentMoniker": "cadastrodeatividades.Designer.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.Designer.cs*",
+              "RelativeToolTip": "cadastrodeatividades.Designer.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T20:03:50.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "teladelogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs",
+              "RelativeDocumentMoniker": "teladelogin.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs [Design]",
+              "RelativeToolTip": "teladelogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:40.667Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cadastrodeatividades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs",
+              "RelativeDocumentMoniker": "cadastrodeatividades.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs [Design]*",
+              "RelativeToolTip": "cadastrodeatividades.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:55:21.749Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "cadastrodefuncionaria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs",
+              "RelativeDocumentMoniker": "cadastrodefuncionaria.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs [Design]",
+              "RelativeToolTip": "cadastrodefuncionaria.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:54:45.34Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cadastrodefuncionaria.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.Designer.cs",
+              "RelativeDocumentMoniker": "cadastrodefuncionaria.Designer.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.Designer.cs",
+              "RelativeToolTip": "cadastrodefuncionaria.Designer.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAhwP8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:05:54.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "telaatividades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs",
+              "RelativeDocumentMoniker": "telaatividades.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs [Design]",
+              "RelativeToolTip": "telaatividades.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:11.163Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "cadastrodefuncionaria.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs",
+              "RelativeDocumentMoniker": "cadastrodefuncionaria.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs",
+              "RelativeToolTip": "cadastrodefuncionaria.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAiwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:54:22.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "cadastrodeatividades.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs",
+              "RelativeDocumentMoniker": "cadastrodeatividades.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs*",
+              "RelativeToolTip": "cadastrodeatividades.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T17:55:17.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "teladelogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.Designer.cs",
+              "RelativeDocumentMoniker": "teladelogin.Designer.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.Designer.cs",
+              "RelativeToolTip": "teladelogin.Designer.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAWwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:41.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "teladelogin.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs",
+              "RelativeDocumentMoniker": "teladelogin.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs",
+              "RelativeToolTip": "teladelogin.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAYwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:03.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:14:06.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "cadastrodefuncionaria.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs",
+              "RelativeDocumentMoniker": "cadastrodefuncionaria.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs",
+              "RelativeToolTip": "cadastrodefuncionaria.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAswJIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T20:13:34.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "telaatividades.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs",
+              "RelativeDocumentMoniker": "telaatividades.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs",
+              "RelativeToolTip": "telaatividades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:00.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "telaatividades.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.Designer.cs",
+              "RelativeDocumentMoniker": "telaatividades.Designer.cs",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.Designer.cs",
+              "RelativeToolTip": "telaatividades.Designer.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAWwN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T18:00:13.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "cadastrodeatividades.resx",
+              "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.resx",
+              "RelativeDocumentMoniker": "cadastrodeatividades.resx",
+              "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.resx*",
+              "RelativeToolTip": "cadastrodeatividades.resx*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-04-24T17:59:02.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
