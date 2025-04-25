@@ -9,11 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using cadastrodeatividades;
 using System.Runtime.InteropServices;
-
-
 
 
 namespace telaatividades
@@ -21,7 +18,7 @@ namespace telaatividades
     public partial class frmTeladeAtividade : Form
     {
         public string codigo;
-        
+
 
         //Conexão com o banco de dados MySQL
         MySqlConnection Conexao;
@@ -142,6 +139,7 @@ namespace telaatividades
             carregar_atividade_com_query(query);
         }
 
+
         private void btnEditar_Click(object sender, EventArgs e)
         {
             try
@@ -166,14 +164,13 @@ namespace telaatividades
                                      MessageBoxButtons.OK,
                                      MessageBoxIcon.Information);
 
-                    // Cria uma instância do formulário de atividades
 
-                    cadastrodeatividades.frmCadastrodeAtividades outroFormulario = new cadastrodeatividades.frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
-
-
-                    // Exibe o formulário criado
-                    outroFormulario.Show();
-                    this.Hide();
+                  //  frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
+                    //frmCadastroAtividades.Show();
+                  //  this.Hide();
+                    frmCadastrodeAtividades frmCadastro = new frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
+                    frmCadastro.codigo = codigo;
+                    frmCadastro.Show();
                 }
                 else
                 {
@@ -201,8 +198,8 @@ namespace telaatividades
 
             {
 
-                    if (lstAtividades.SelectedItems.Count > 0) // Verifica se há uma linha selecionada
-                    {
+                if (lstAtividades.SelectedItems.Count > 0) // Verifica se há uma linha selecionada
+                {
 
 
                     // Obtendo os dados da atividade selecionada
@@ -399,10 +396,20 @@ namespace telaatividades
             }
         }
 
+
         private void btnTelaCadastrodeAtividades_Click(object sender, EventArgs e)
         {
-            frmCadastrodeAtividades frmAtividades = new frmCadastrodeAtividades("", "", "", "", "", "");
-            frmAtividades.Show();
+  
+            frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades("","","","","","");
+            frmCadastroAtividades.Show();
+            this.Hide();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        
     }
 }

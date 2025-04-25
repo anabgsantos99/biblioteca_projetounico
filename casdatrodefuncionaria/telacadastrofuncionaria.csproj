@@ -110,6 +110,18 @@
     <Compile Include="cadastrodefuncionaria.Designer.cs">
       <DependentUpon>cadastrodefuncionaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="alterarsenha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alterarsenha.Designer.cs">
+      <DependentUpon>alterarsenha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="perguntadeseguranca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="perguntadeseguranca.Designer.cs">
+      <DependentUpon>perguntadeseguranca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="telaatividades.cs">
@@ -130,6 +142,9 @@
     <EmbeddedResource Include="cadastrodefuncionaria.resx">
       <DependentUpon>cadastrodefuncionaria.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="perguntadeseguranca.resx">
+      <DependentUpon>perguntadeseguranca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -140,6 +155,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="alterarsenha.resx">
+      <DependentUpon>alterarsenha.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="telaatividades.resx">
       <DependentUpon>telaatividades.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,6 +228,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search_24dp_004A8D_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tela de Login %283%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -14,19 +14,12 @@ using teladelogin;
 
 namespace casdatrodefuncionaria
 {
-    public partial class frmCadatroFuncionaria : Form
+    public partial class frmCadastroFuncionaria : Form
     {
         MySqlConnection conexao;
         string data_source = "datasource=localhost; username=root; password=; database=sistemasdetarefas";
 
-        string email;
-        string nome;
-        string senha;
-        string confirmarSenha;
-        object perguntaSeguranca;
-        string respostaSeguranca;
-
-        public frmCadatroFuncionaria()
+        public frmCadastroFuncionaria()
         {
             InitializeComponent();
         }
@@ -107,8 +100,9 @@ namespace casdatrodefuncionaria
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
 
-                frmCadastrodeAtividades frmAtividades = new frmCadastrodeAtividades("", "", "", "", "", "");
-                frmAtividades.Show();
+                frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades("", "", "", "", "", "");
+                frmCadastroAtividades.Show();
+                this.Hide();
             }
 
             catch (MySqlException ex)
@@ -152,6 +146,7 @@ namespace casdatrodefuncionaria
         {
             frmTeladeLogin frmLogin = new frmTeladeLogin();
             frmLogin.Show();
+            this.Hide();
         }
 
 

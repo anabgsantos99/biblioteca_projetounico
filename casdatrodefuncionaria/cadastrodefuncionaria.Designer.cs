@@ -1,7 +1,7 @@
 ﻿
 namespace casdatrodefuncionaria
 {
-    partial class frmCadatroFuncionaria
+    partial class frmCadastroFuncionaria
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -44,7 +44,7 @@ namespace casdatrodefuncionaria
             this.comboBoxPerguntaSeguranca = new System.Windows.Forms.ComboBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.lblLogin = new System.Windows.Forms.LinkLabel();
             this.lblSenha = new System.Windows.Forms.Label();
             this.btnCadastrar = new System.Windows.Forms.Button();
             this.lblNome = new System.Windows.Forms.Label();
@@ -80,7 +80,7 @@ namespace casdatrodefuncionaria
             this.panelFundo.Controls.Add(this.comboBoxPerguntaSeguranca);
             this.panelFundo.Controls.Add(this.pictureBox5);
             this.panelFundo.Controls.Add(this.label1);
-            this.panelFundo.Controls.Add(this.linkLabel1);
+            this.panelFundo.Controls.Add(this.lblLogin);
             this.panelFundo.Controls.Add(this.lblSenha);
             this.panelFundo.Controls.Add(this.btnCadastrar);
             this.panelFundo.Controls.Add(this.lblNome);
@@ -254,21 +254,21 @@ namespace casdatrodefuncionaria
             this.label1.TabIndex = 13;
             this.label1.Text = "Cadastro";
             // 
-            // linkLabel1
+            // lblLogin
             // 
-            this.linkLabel1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.ForeColor = System.Drawing.Color.White;
-            this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(1017, 783);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(67, 24);
-            this.linkLabel1.TabIndex = 12;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Login";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.lblLogin.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblLogin.AutoSize = true;
+            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.lblLogin.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLogin.ForeColor = System.Drawing.Color.White;
+            this.lblLogin.LinkColor = System.Drawing.Color.White;
+            this.lblLogin.Location = new System.Drawing.Point(1017, 783);
+            this.lblLogin.Name = "lblLogin";
+            this.lblLogin.Size = new System.Drawing.Size(67, 24);
+            this.lblLogin.TabIndex = 12;
+            this.lblLogin.TabStop = true;
+            this.lblLogin.Text = "Login";
+            this.lblLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // lblSenha
             // 
@@ -365,7 +365,7 @@ namespace casdatrodefuncionaria
             this.lblRespostaSeguranca.TabIndex = 10;
             this.lblRespostaSeguranca.Text = "Resposta";
             // 
-            // frmCadatroFuncionaria
+            // frmCadastroFuncionaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -374,7 +374,7 @@ namespace casdatrodefuncionaria
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmCadatroFuncionaria";
+            this.Name = "frmCadastroFuncionaria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funcionária";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -392,7 +392,7 @@ namespace casdatrodefuncionaria
 
         #endregion
         private System.Windows.Forms.Panel panelFundo;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel lblLogin;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.Button btnCadastrar;

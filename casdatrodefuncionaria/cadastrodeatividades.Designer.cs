@@ -73,6 +73,7 @@ namespace cadastrodeatividades
             this.pbSaida.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbSaida.TabIndex = 3;
             this.pbSaida.TabStop = false;
+            this.pbSaida.Click += new System.EventHandler(this.pbSaida_Click);
             // 
             // pbTelaAtividade
             // 
@@ -84,6 +85,7 @@ namespace cadastrodeatividades
             this.pbTelaAtividade.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbTelaAtividade.TabIndex = 2;
             this.pbTelaAtividade.TabStop = false;
+            this.pbTelaAtividade.Click += new System.EventHandler(this.pbTelaAtividade_Click);
             // 
             // lblBibliotecaSenac
             // 

@@ -35,12 +35,14 @@ C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\bin\Debug\Syst
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacadastrofuncionaria.csproj.AssemblyReference.cache
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\cadastrodeatividades.frmCadastrodeAtividades.resources
-C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmCadatroFuncionaria.resources
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.Properties.Resources.resources
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telaatividades.frmTeladeAtividade.resources
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\teladelogin.frmTeladeLogin.resources
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacadastrofuncionaria.csproj.GenerateResource.cache
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacadastrofuncionaria.csproj.CoreCompileInputs.cache
-C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacada.85299A89.Up2Date
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.exe
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.pdb
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacadastrofuncionaria.csproj.CopyComplete
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmCadastroFuncionaria.resources
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmPerguntadeSegurança.resources
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmRedefinirSenha.resources

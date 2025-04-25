@@ -20,6 +20,8 @@ using MySql.Data.MySqlClient;
 
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
+using telaatividades;
+
 
 namespace cadastrodeatividades
 
@@ -29,7 +31,9 @@ namespace cadastrodeatividades
 
     {
 
-        string codigo, ano, atividade, semana, mes, funcionaria;
+        public string codigo { get; set; }
+
+        string  ano, atividade, semana, mes, funcionaria;
 
         MySqlConnection conexao;
 
@@ -51,6 +55,18 @@ namespace cadastrodeatividades
 
             comboBoxFuncionaria.Text = funcionaria;
 
+        }
+
+        private void pbSaida_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pbTelaAtividade_Click(object sender, EventArgs e)
+        {
+            frmTeladeAtividade frmAtividades = new frmTeladeAtividade();
+            frmAtividades.Show();
+            this.Hide();
         }
 
         public frmCadastrodeAtividades(string codigo, string ano, string atividade, string semana, string mes, string funcionaria)
@@ -170,7 +186,7 @@ namespace cadastrodeatividades
 
                     // Menssagem de sucesso
 
-                    MessageBox.Show("Cadastro realizado com sucesso: ",
+                    MessageBox.Show("Cadastro realizado com Sucesso!",
 
                         "Sucesso",
 
@@ -231,6 +247,10 @@ namespace cadastrodeatividades
                 limparBotao();
 
                 codigo = null;
+
+                frmTeladeAtividade frmAtividades = new frmTeladeAtividade();
+                frmAtividades.Show();
+                this.Hide();
 
             }
 
@@ -293,6 +313,7 @@ namespace cadastrodeatividades
             try
 
             {
+                codigo = null; 
 
                 if ((comboBoxFuncionaria.Text != null) ||
 

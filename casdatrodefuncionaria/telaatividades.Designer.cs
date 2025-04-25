@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panelTopo_TeladeAtividades = new System.Windows.Forms.Panel();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.btnTelaCadastrodeAtividades = new System.Windows.Forms.Button();
             this.lblBibliotecaSenac = new System.Windows.Forms.Label();
             this.lstAtividades = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,8 +41,6 @@
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
             this.btnPesquisar = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
-            this.btnTelaCadastrodeAtividades = new System.Windows.Forms.Button();
             this.panelTopo_TeladeAtividades.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +55,32 @@
             this.panelTopo_TeladeAtividades.Name = "panelTopo_TeladeAtividades";
             this.panelTopo_TeladeAtividades.Size = new System.Drawing.Size(1604, 37);
             this.panelTopo_TeladeAtividades.TabIndex = 1;
+            // 
+            // btnSair
+            // 
+            this.btnSair.BackColor = System.Drawing.Color.White;
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Image = global::casdatrodefuncionaria.Properties.Resources.logout_24dp_F7941D_FILL0_wght400_GRAD0_opsz24;
+            this.btnSair.Location = new System.Drawing.Point(1560, 3);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(41, 31);
+            this.btnSair.TabIndex = 5;
+            this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // btnTelaCadastrodeAtividades
+            // 
+            this.btnTelaCadastrodeAtividades.BackColor = System.Drawing.Color.White;
+            this.btnTelaCadastrodeAtividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTelaCadastrodeAtividades.ForeColor = System.Drawing.Color.White;
+            this.btnTelaCadastrodeAtividades.Image = global::casdatrodefuncionaria.Properties.Resources.add_task_24dp_F7941D_FILL0_wght400_GRAD0_opsz48;
+            this.btnTelaCadastrodeAtividades.Location = new System.Drawing.Point(3, 3);
+            this.btnTelaCadastrodeAtividades.Name = "btnTelaCadastrodeAtividades";
+            this.btnTelaCadastrodeAtividades.Size = new System.Drawing.Size(41, 31);
+            this.btnTelaCadastrodeAtividades.TabIndex = 4;
+            this.btnTelaCadastrodeAtividades.UseVisualStyleBackColor = false;
+            this.btnTelaCadastrodeAtividades.Click += new System.EventHandler(this.btnTelaCadastrodeAtividades_Click);
             // 
             // lblBibliotecaSenac
             // 
@@ -197,31 +223,6 @@
             this.btnPesquisar.Text = "Pesquisar";
             this.btnPesquisar.UseVisualStyleBackColor = false;
             this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.BackColor = System.Drawing.Color.White;
-            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Image = global::casdatrodefuncionaria.Properties.Resources.logout_24dp_F7941D_FILL0_wght400_GRAD0_opsz24;
-            this.btnSair.Location = new System.Drawing.Point(1560, 3);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(41, 31);
-            this.btnSair.TabIndex = 5;
-            this.btnSair.UseVisualStyleBackColor = false;
-            // 
-            // btnTelaCadastrodeAtividades
-            // 
-            this.btnTelaCadastrodeAtividades.BackColor = System.Drawing.Color.White;
-            this.btnTelaCadastrodeAtividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTelaCadastrodeAtividades.ForeColor = System.Drawing.Color.White;
-            this.btnTelaCadastrodeAtividades.Image = global::casdatrodefuncionaria.Properties.Resources.add_task_24dp_F7941D_FILL0_wght400_GRAD0_opsz48;
-            this.btnTelaCadastrodeAtividades.Location = new System.Drawing.Point(3, 3);
-            this.btnTelaCadastrodeAtividades.Name = "btnTelaCadastrodeAtividades";
-            this.btnTelaCadastrodeAtividades.Size = new System.Drawing.Size(41, 31);
-            this.btnTelaCadastrodeAtividades.TabIndex = 4;
-            this.btnTelaCadastrodeAtividades.UseVisualStyleBackColor = false;
-            this.btnTelaCadastrodeAtividades.Click += new System.EventHandler(this.btnTelaCadastrodeAtividades_Click);
             // 
             // frmTeladeAtividade
             // 
