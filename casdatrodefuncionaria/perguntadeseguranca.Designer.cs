@@ -33,16 +33,19 @@ namespace casdatrodefuncionaria
             this.btnRedefinirSenha = new System.Windows.Forms.Button();
             this.lblLogin = new System.Windows.Forms.LinkLabel();
             this.pbPergunta = new System.Windows.Forms.PictureBox();
-            this.pbResposta = new System.Windows.Forms.PictureBox();
             this.lblPerguntadeSeguranca = new System.Windows.Forms.Label();
             this.txtDigiteSeuEmail = new System.Windows.Forms.TextBox();
             this.comboBoxPerguntaSeguranca = new System.Windows.Forms.ComboBox();
+            this.panelFundo = new System.Windows.Forms.Panel();
+            this.pbResposta = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).BeginInit();
+            this.panelFundo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbResposta)).BeginInit();
             this.SuspendLayout();
             // 
             // txtResposta
             // 
+            this.txtResposta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtResposta.BackColor = System.Drawing.Color.White;
             this.txtResposta.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtResposta.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold);
@@ -57,6 +60,7 @@ namespace casdatrodefuncionaria
             // 
             // btnRedefinirSenha
             // 
+            this.btnRedefinirSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRedefinirSenha.BackColor = System.Drawing.Color.Transparent;
             this.btnRedefinirSenha.FlatAppearance.BorderSize = 0;
             this.btnRedefinirSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -74,7 +78,7 @@ namespace casdatrodefuncionaria
             // 
             this.lblLogin.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
             this.lblLogin.AutoSize = true;
-            this.lblLogin.BackColor = System.Drawing.Color.Transparent;
+            this.lblLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.lblLogin.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLogin.LinkColor = System.Drawing.Color.White;
             this.lblLogin.Location = new System.Drawing.Point(779, 709);
@@ -88,6 +92,7 @@ namespace casdatrodefuncionaria
             // 
             // pbPergunta
             // 
+            this.pbPergunta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pbPergunta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbPergunta.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
             this.pbPergunta.Location = new System.Drawing.Point(606, 438);
@@ -96,17 +101,6 @@ namespace casdatrodefuncionaria
             this.pbPergunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbPergunta.TabIndex = 12;
             this.pbPergunta.TabStop = false;
-            // 
-            // pbResposta
-            // 
-            this.pbResposta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbResposta.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
-            this.pbResposta.Location = new System.Drawing.Point(606, 510);
-            this.pbResposta.Name = "pbResposta";
-            this.pbResposta.Size = new System.Drawing.Size(41, 37);
-            this.pbResposta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbResposta.TabIndex = 13;
-            this.pbResposta.TabStop = false;
             // 
             // lblPerguntadeSeguranca
             // 
@@ -136,6 +130,7 @@ namespace casdatrodefuncionaria
             // 
             // comboBoxPerguntaSeguranca
             // 
+            this.comboBoxPerguntaSeguranca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.comboBoxPerguntaSeguranca.BackColor = System.Drawing.Color.White;
             this.comboBoxPerguntaSeguranca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxPerguntaSeguranca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -153,29 +148,53 @@ namespace casdatrodefuncionaria
             this.comboBoxPerguntaSeguranca.Size = new System.Drawing.Size(346, 26);
             this.comboBoxPerguntaSeguranca.TabIndex = 16;
             // 
+            // panelFundo
+            // 
+            this.panelFundo.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__3_;
+            this.panelFundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelFundo.Controls.Add(this.pbResposta);
+            this.panelFundo.Controls.Add(this.txtDigiteSeuEmail);
+            this.panelFundo.Controls.Add(this.comboBoxPerguntaSeguranca);
+            this.panelFundo.Controls.Add(this.txtResposta);
+            this.panelFundo.Controls.Add(this.btnRedefinirSenha);
+            this.panelFundo.Controls.Add(this.lblPerguntadeSeguranca);
+            this.panelFundo.Controls.Add(this.pbPergunta);
+            this.panelFundo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFundo.Location = new System.Drawing.Point(0, 0);
+            this.panelFundo.Name = "panelFundo";
+            this.panelFundo.Size = new System.Drawing.Size(1604, 861);
+            this.panelFundo.TabIndex = 17;
+            // 
+            // pbResposta
+            // 
+            this.pbResposta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbResposta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbResposta.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
+            this.pbResposta.Location = new System.Drawing.Point(606, 510);
+            this.pbResposta.Name = "pbResposta";
+            this.pbResposta.Size = new System.Drawing.Size(41, 37);
+            this.pbResposta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbResposta.TabIndex = 17;
+            this.pbResposta.TabStop = false;
+            // 
             // frmPerguntadeSegurança
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__3_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1604, 861);
-            this.Controls.Add(this.comboBoxPerguntaSeguranca);
-            this.Controls.Add(this.txtDigiteSeuEmail);
-            this.Controls.Add(this.lblPerguntadeSeguranca);
-            this.Controls.Add(this.pbResposta);
-            this.Controls.Add(this.pbPergunta);
             this.Controls.Add(this.lblLogin);
-            this.Controls.Add(this.btnRedefinirSenha);
-            this.Controls.Add(this.txtResposta);
+            this.Controls.Add(this.panelFundo);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "frmPerguntadeSegurança";
             this.Text = "Redefinir Senha";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).EndInit();
+            this.panelFundo.ResumeLayout(false);
+            this.panelFundo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbResposta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -187,9 +206,10 @@ namespace casdatrodefuncionaria
         private System.Windows.Forms.Button btnRedefinirSenha;
         private System.Windows.Forms.LinkLabel lblLogin;
         private System.Windows.Forms.PictureBox pbPergunta;
-        private System.Windows.Forms.PictureBox pbResposta;
         private System.Windows.Forms.Label lblPerguntadeSeguranca;
         private System.Windows.Forms.TextBox txtDigiteSeuEmail;
         private System.Windows.Forms.ComboBox comboBoxPerguntaSeguranca;
+        private System.Windows.Forms.Panel panelFundo;
+        private System.Windows.Forms.PictureBox pbResposta;
     }
 }

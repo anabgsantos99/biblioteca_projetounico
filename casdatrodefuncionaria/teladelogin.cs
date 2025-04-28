@@ -34,100 +34,59 @@ namespace teladelogin
             string senhaDigitada = txtSenha.Text.Trim();
 
             try
-
             {
-
                 string data_source = "datasource=localhost; username=root; password=; database=sistemasdetarefas";
-
+                
                 conexao = new MySqlConnection(data_source);
-
+               
                 conexao.Open();
-
+               
                 string sql = "SELECT senha FROM funcionaria WHERE email = @email";
-
+                
                 MySqlCommand cmd = new MySqlCommand(sql, conexao);
-
+                
                 cmd.Parameters.AddWithValue("@email", emailDigitado);
-
+               
                 using (MySqlDataReader reader = cmd.ExecuteReader())
-
                 {
-
                     if (reader.Read())
-
                     {
-
                         string senhaBanco = reader["senha"].ToString();
-
                         if (senhaDigitada == senhaBanco)
-
                         {
-
                             MessageBox.Show("Login realizado com sucesso!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
                             // Lógica após login bem-sucedido
-
                         }
-
                         else
-
                         {
-
                             MessageBox.Show("Senha incorreta. Tente novamente.", "Erro de Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
                             // Lógica para tentativas de login falhas
-
                         }
-
                     }
-
                     else
-
                     {
-
                         MessageBox.Show("Email não encontrado.", "Erro de Login", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
                     }
-
                 }
-
                 frmTeladeAtividade frmAtividades = new frmTeladeAtividade();
                 frmAtividades.Show();
                 this.Hide();
-
             }
-
             catch (MySqlException ex)
-
             {
-
                 MessageBox.Show($"Erro MySQL {ex.Number}: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
-
             catch (Exception ex)
-
             {
-
                 MessageBox.Show($"Ocorreu um erro: {ex.Message}", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
             }
-
             finally
-
             {
-
                 // Agora 'conexao' deve estar acessível aqui
-
                 if (conexao != null && conexao.State == ConnectionState.Open)
-
                 {
-
                     conexao.Close();
-
                 }
-
-
             }
          }
 

@@ -36,8 +36,10 @@ namespace casdatrodefuncionaria
             this.pbConfirmarSenha = new System.Windows.Forms.PictureBox();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.lblLogin = new System.Windows.Forms.LinkLabel();
+            this.panelFundo = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).BeginInit();
+            this.panelFundo.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblRedefinirSenha
@@ -54,11 +56,12 @@ namespace casdatrodefuncionaria
             // 
             // txtNovaSenha
             // 
+            this.txtNovaSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNovaSenha.BackColor = System.Drawing.Color.White;
             this.txtNovaSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNovaSenha.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNovaSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
-            this.txtNovaSenha.Location = new System.Drawing.Point(606, 447);
+            this.txtNovaSenha.Location = new System.Drawing.Point(606, 448);
             this.txtNovaSenha.Name = "txtNovaSenha";
             this.txtNovaSenha.Size = new System.Drawing.Size(393, 19);
             this.txtNovaSenha.TabIndex = 16;
@@ -68,6 +71,7 @@ namespace casdatrodefuncionaria
             // 
             // txtConfirmarSenha
             // 
+            this.txtConfirmarSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtConfirmarSenha.BackColor = System.Drawing.Color.White;
             this.txtConfirmarSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirmarSenha.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -82,6 +86,8 @@ namespace casdatrodefuncionaria
             // 
             // pbSenha
             // 
+            this.pbSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbSenha.BackColor = System.Drawing.Color.Transparent;
             this.pbSenha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbSenha.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
             this.pbSenha.Location = new System.Drawing.Point(606, 438);
@@ -93,6 +99,8 @@ namespace casdatrodefuncionaria
             // 
             // pbConfirmarSenha
             // 
+            this.pbConfirmarSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbConfirmarSenha.BackColor = System.Drawing.Color.Transparent;
             this.pbConfirmarSenha.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbConfirmarSenha.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
             this.pbConfirmarSenha.Location = new System.Drawing.Point(606, 510);
@@ -104,6 +112,7 @@ namespace casdatrodefuncionaria
             // 
             // btnAlterar
             // 
+            this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
             this.btnAlterar.FlatAppearance.BorderSize = 0;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -115,6 +124,7 @@ namespace casdatrodefuncionaria
             this.btnAlterar.TabIndex = 20;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = false;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // lblLogin
             // 
@@ -132,21 +142,31 @@ namespace casdatrodefuncionaria
             this.lblLogin.VisitedLinkColor = System.Drawing.Color.White;
             this.lblLogin.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLogin_LinkClicked);
             // 
+            // panelFundo
+            // 
+            this.panelFundo.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__3_;
+            this.panelFundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelFundo.Controls.Add(this.pbConfirmarSenha);
+            this.panelFundo.Controls.Add(this.pbSenha);
+            this.panelFundo.Controls.Add(this.txtNovaSenha);
+            this.panelFundo.Controls.Add(this.lblLogin);
+            this.panelFundo.Controls.Add(this.lblRedefinirSenha);
+            this.panelFundo.Controls.Add(this.btnAlterar);
+            this.panelFundo.Controls.Add(this.txtConfirmarSenha);
+            this.panelFundo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFundo.Location = new System.Drawing.Point(0, 0);
+            this.panelFundo.Name = "panelFundo";
+            this.panelFundo.Size = new System.Drawing.Size(1604, 861);
+            this.panelFundo.TabIndex = 22;
+            // 
             // frmRedefinirSenha
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__3_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1604, 861);
-            this.Controls.Add(this.lblLogin);
-            this.Controls.Add(this.btnAlterar);
-            this.Controls.Add(this.pbConfirmarSenha);
-            this.Controls.Add(this.pbSenha);
-            this.Controls.Add(this.txtConfirmarSenha);
-            this.Controls.Add(this.txtNovaSenha);
-            this.Controls.Add(this.lblRedefinirSenha);
+            this.Controls.Add(this.panelFundo);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
             this.Name = "frmRedefinirSenha";
@@ -155,8 +175,9 @@ namespace casdatrodefuncionaria
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).EndInit();
+            this.panelFundo.ResumeLayout(false);
+            this.panelFundo.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -169,5 +190,6 @@ namespace casdatrodefuncionaria
         private System.Windows.Forms.PictureBox pbConfirmarSenha;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.LinkLabel lblLogin;
+        private System.Windows.Forms.Panel panelFundo;
     }
 }

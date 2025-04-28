@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using teladelogin;
 using telaatividades;
 using MySql.Data.MySqlClient;
+using System.Runtime.CompilerServices;
 
 namespace casdatrodefuncionaria
 {
@@ -23,9 +24,7 @@ namespace casdatrodefuncionaria
 
         private void lblLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmTeladeLogin frmLogin = new frmTeladeLogin();
-            frmLogin.Show();
-            this.Hide();
+            navegabilidade(new frmTeladeLogin(), this);
         }
 
 
@@ -35,6 +34,12 @@ namespace casdatrodefuncionaria
             {
                 textBox.Text = null;
             }
+        }
+
+        public static void navegabilidade(Form formulario, Form principal)
+        {
+            formulario.Show();
+            principal.Hide();
         }
 
         private void txtDigiteSeuEmail_Click(object sender, EventArgs e)
@@ -89,10 +94,11 @@ namespace casdatrodefuncionaria
 
                             // Lógica após informações corretas bem-sucedido
 
+                            navegabilidade(new frmRedefinirSenha(emailDigitado), this);
 
-                            frmRedefinirSenha frmSenha = new frmRedefinirSenha();
-                            frmSenha.Show();
-                            this.Hide();
+                            //frmRedefinirSenha frmSenha = new frmRedefinirSenha();
+                            //frmSenha.Show();
+                            //this.Hide();
 
                         }
 
