@@ -232,5 +232,11 @@
   <ItemGroup>
     <None Include="Resources\Tela de Login %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

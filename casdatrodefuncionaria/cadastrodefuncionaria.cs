@@ -11,6 +11,7 @@ using System.Text.RegularExpressions;
 using MySql.Data.MySqlClient;
 using cadastrodeatividades;
 using teladelogin;
+using telaatividades;
 
 namespace casdatrodefuncionaria
 {
@@ -22,6 +23,18 @@ namespace casdatrodefuncionaria
         public frmCadastroFuncionaria()
         {
             InitializeComponent();
+
+            txtSenha.UseSystemPasswordChar = true;
+            txtConfirmarSenha.UseSystemPasswordChar = true;
+
+
+            txtEmail.KeyDown += textBox_KeyDown;
+            txtNome.KeyDown += textBox_KeyDown;
+            txtSenha.KeyDown += textBox_KeyDown;
+            txtConfirmarSenha.KeyDown += textBox_KeyDown;
+            comboBoxPerguntaSeguranca.KeyDown += textBox_KeyDown;
+            txtRespostaSeguranca.KeyDown += textBox_KeyDown;
+
         }
         private bool IsValidEmail(string email)
         {
@@ -31,7 +44,8 @@ namespace casdatrodefuncionaria
         }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
-        { try
+        {
+            try
 
             {
                 if (string.IsNullOrEmpty(txtEmail.Text.Trim()) ||
@@ -67,13 +81,13 @@ namespace casdatrodefuncionaria
                                     MessageBoxButtons.OK,
                                     MessageBoxIcon.Warning);
                     return;
-               
+
                 }
                 // cria a conexão com o banco de dados
                 conexao = new MySqlConnection(data_source);
                 conexao.Open();
 
-                
+
 
                 // Comando SQL para inserir um novo cliente no banco de dados
                 MySqlCommand cmd = new MySqlCommand
@@ -88,7 +102,7 @@ namespace casdatrodefuncionaria
                 cmd.Parameters.AddWithValue("@nomecompleto", txtNome.Text.Trim());
                 cmd.Parameters.AddWithValue("@senha", txtSenha.Text.Trim());
                 cmd.Parameters.AddWithValue("@perguntadeseguranca", comboBoxPerguntaSeguranca.Text.Trim());
-                cmd.Parameters.AddWithValue("@resposta", txtRespostaSeguranca.Text.Trim()); 
+                cmd.Parameters.AddWithValue("@resposta", txtRespostaSeguranca.Text.Trim());
 
                 // Executar o comando de inserção no banco
 
@@ -100,9 +114,8 @@ namespace casdatrodefuncionaria
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
 
-                frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades("", "", "", "", "", "");
-                frmCadastroAtividades.Show();
-                this.Hide();
+                frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
+
             }
 
             catch (MySqlException ex)
@@ -135,7 +148,7 @@ namespace casdatrodefuncionaria
                 {
                     conexao.Close();
 
-                    
+
                 }
             }
 
@@ -144,15 +157,61 @@ namespace casdatrodefuncionaria
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmTeladeLogin frmLogin = new frmTeladeLogin();
-            frmLogin.Show();
-            this.Hide();
+            frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
+
         }
 
+        public static void visibilidade_senha(TextBox textBox, PictureBox showIcon, PictureBox hideIcon)
+        {
+            if (textBox.UseSystemPasswordChar)
+            {
+                textBox.UseSystemPasswordChar = false;
+
+                hideIcon.BringToFront();
+            }
+            else
+            {
+                textBox.UseSystemPasswordChar = true;
+
+                showIcon.BringToFront();
+            }
+        }
+
+        private void pbMostrar_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
+
+        }
+
+        private void pbEsconder_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
+            /*pbMostrar.BringToFront();
+            txtSenha.UseSystemPasswordChar = true;*/
+        }
+
+        private void pbMostrar2_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void pbEsconder2_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                this.SelectNextControl((Control)sender, true, true, true, true);
+
+            }
+        }
 
     }
-
-    }
+}
 
 
 

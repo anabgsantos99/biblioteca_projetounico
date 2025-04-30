@@ -43,6 +43,6 @@ C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\tela
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.exe
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.pdb
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmCadastroFuncionaria.resources
-C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmPerguntadeSegurança.resources
 C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmRedefinirSenha.resources
-C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacada.85299A89.Up2Date
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\telacadastrofuncionaria.csproj.CopyComplete
+C:\Users\ana.bgsantos10\source\projetounico\casdatrodefuncionaria\obj\Debug\casdatrodefuncionaria.frmPerguntadeSeguranca.resources

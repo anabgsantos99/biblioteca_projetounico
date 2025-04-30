@@ -120,7 +120,7 @@ namespace cadastrodeatividades
             this.comboBoxAtividade.Location = new System.Drawing.Point(513, 646);
             this.comboBoxAtividade.Name = "comboBoxAtividade";
             this.comboBoxAtividade.Size = new System.Drawing.Size(558, 26);
-            this.comboBoxAtividade.TabIndex = 15;
+            this.comboBoxAtividade.TabIndex = 4;
             // 
             // comboBoxSemana
             // 
@@ -137,7 +137,7 @@ namespace cadastrodeatividades
             this.comboBoxSemana.Location = new System.Drawing.Point(513, 560);
             this.comboBoxSemana.Name = "comboBoxSemana";
             this.comboBoxSemana.Size = new System.Drawing.Size(558, 26);
-            this.comboBoxSemana.TabIndex = 14;
+            this.comboBoxSemana.TabIndex = 3;
             // 
             // comboBoxMes
             // 
@@ -162,7 +162,7 @@ namespace cadastrodeatividades
             this.comboBoxMes.Location = new System.Drawing.Point(513, 474);
             this.comboBoxMes.Name = "comboBoxMes";
             this.comboBoxMes.Size = new System.Drawing.Size(558, 26);
-            this.comboBoxMes.TabIndex = 13;
+            this.comboBoxMes.TabIndex = 2;
             // 
             // comboBoxAno
             // 
@@ -187,7 +187,7 @@ namespace cadastrodeatividades
             this.comboBoxAno.Location = new System.Drawing.Point(513, 388);
             this.comboBoxAno.Name = "comboBoxAno";
             this.comboBoxAno.Size = new System.Drawing.Size(558, 26);
-            this.comboBoxAno.TabIndex = 12;
+            this.comboBoxAno.TabIndex = 1;
             // 
             // comboBoxFuncionaria
             // 
@@ -204,16 +204,17 @@ namespace cadastrodeatividades
             this.comboBoxFuncionaria.Location = new System.Drawing.Point(513, 302);
             this.comboBoxFuncionaria.Name = "comboBoxFuncionaria";
             this.comboBoxFuncionaria.Size = new System.Drawing.Size(558, 26);
-            this.comboBoxFuncionaria.TabIndex = 11;
+            this.comboBoxFuncionaria.TabIndex = 0;
             // 
             // btnCancelar
             // 
+            this.btnCancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnCancelar.BackColor = System.Drawing.Color.Transparent;
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
             this.btnCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.btnCancelar.Location = new System.Drawing.Point(845, 758);
+            this.btnCancelar.Location = new System.Drawing.Point(845, 741);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(276, 41);
             this.btnCancelar.TabIndex = 9;
@@ -223,12 +224,13 @@ namespace cadastrodeatividades
             // 
             // btnSalvar
             // 
+            this.btnSalvar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnSalvar.BackColor = System.Drawing.Color.Transparent;
             this.btnSalvar.FlatAppearance.BorderSize = 0;
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Bold);
             this.btnSalvar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.btnSalvar.Location = new System.Drawing.Point(485, 758);
+            this.btnSalvar.Location = new System.Drawing.Point(483, 741);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(277, 41);
             this.btnSalvar.TabIndex = 8;

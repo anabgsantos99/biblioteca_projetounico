@@ -16,30 +16,57 @@ namespace casdatrodefuncionaria
 {
     public partial class frmRedefinirSenha : Form
     {
-        MySqlConnection conexao;
-        
 
         private string email;
         public frmRedefinirSenha(string emailDigitado)
         {
             email = emailDigitado;
             InitializeComponent();
+
+            if (txtNovaSenha.Text != "Nova Senha")
+            { 
+            txtNovaSenha.UseSystemPasswordChar = true;
+            }
+
+            if (txtConfirmarSenha.Text != "Confirme a senha")
+            {
+                txtConfirmarSenha.UseSystemPasswordChar = true;
+            }
+
+            txtNovaSenha.KeyDown += textBox_KeyDown;
+            txtConfirmarSenha.KeyDown += textBox_KeyDown;
+            
+            txtConfirmarSenha.GotFocus += txtSenha_GotFocus;
+
+
         }
 
 
-        private void txtNovaSenha_Click(object sender, EventArgs e)
+    private void txtSenha_GotFocus(object sender, EventArgs e)
+    {
+        if (txtConfirmarSenha.Text == "Confirme a senha")
         {
-            frmPerguntadeSegurança.limpartxt(txtNovaSenha, "Nova Senha");
+            txtConfirmarSenha.Text = "";
+            txtConfirmarSenha.UseSystemPasswordChar = true;
+        }
+    }
+
+
+    private void txtNovaSenha_Click(object sender, EventArgs e)
+        {
+            frmPerguntadeSeguranca.limpartxt(txtNovaSenha, "Nova Senha");
+            txtNovaSenha.UseSystemPasswordChar = true;
         }
 
         private void txtConfirmarSenha_Click(object sender, EventArgs e)
         {
-            frmPerguntadeSegurança.limpartxt(txtConfirmarSenha, "Confirme a senha");
+            frmPerguntadeSeguranca.limpartxt(txtConfirmarSenha, "Confirme a senha");
+            txtConfirmarSenha.UseSystemPasswordChar = true;
         }
 
         private void lblLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            frmPerguntadeSegurança.navegabilidade(new frmTeladeLogin(), this);
+            frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
         }
 
         private void btnAlterar_Click(object sender, EventArgs e)
@@ -91,7 +118,7 @@ namespace casdatrodefuncionaria
                                         MessageBoxButtons.OK,
                                         MessageBoxIcon.Information);
 
-                        frmPerguntadeSegurança.navegabilidade(new frmTeladeLogin(), this);
+                        frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
                     }
                 }
                 catch (MySqlException ex)
@@ -114,5 +141,35 @@ namespace casdatrodefuncionaria
             }
 
         }
+
+        private void pbMostrar_Click(object sender, EventArgs e)
+        {
+            frmCadastroFuncionaria.visibilidade_senha(txtNovaSenha, pbMostrar, pbEsconder);
+        }
+
+        private void pbEsconder_Click(object sender, EventArgs e)
+        {
+            frmCadastroFuncionaria.visibilidade_senha(txtNovaSenha, pbMostrar, pbEsconder);
+        }
+
+        private void pbMostrar2_Click(object sender, EventArgs e)
+        {
+            frmCadastroFuncionaria.visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void pbEsconder2_Click(object sender, EventArgs e)
+        {
+            frmCadastroFuncionaria.visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true; // Evita o som "beep"
+                this.SelectNextControl((Control)sender, true, true, true, true);
+            }
+        }
+
     }
 }

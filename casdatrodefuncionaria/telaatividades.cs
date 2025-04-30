@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using cadastrodeatividades;
+using casdatrodefuncionaria;
+using teladelogin;
 using System.Runtime.InteropServices;
 
 
@@ -159,18 +161,19 @@ namespace telaatividades
 
 
                     //Exibir uma MessageBox com o código do cliente
-                    MessageBox.Show("Código da tarefa: " + codigo,
-                                     "Código Selecionado",
-                                     MessageBoxButtons.OK,
-                                     MessageBoxIcon.Information);
+                    DialogResult opcaoEscolhida = MessageBox.Show("Tem certeza que deseja editar a atividade com o código: " + codigo,
+                                            "Tem certeza?",
+                                            MessageBoxButtons.YesNo,
+                                            MessageBoxIcon.Warning);
 
+                    if (opcaoEscolhida == DialogResult.Yes)
+                    {
+                        frmCadastrodeAtividades frmCadastro = new frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
+                        frmCadastro.codigo = codigo;
+                        frmCadastro.Show();
+                    }
 
-                  //  frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
-                    //frmCadastroAtividades.Show();
-                  //  this.Hide();
-                    frmCadastrodeAtividades frmCadastro = new frmCadastrodeAtividades(codigo, ano, atividade, semana, mes, funcionaria);
-                    frmCadastro.codigo = codigo;
-                    frmCadastro.Show();
+                    
                 }
                 else
                 {
@@ -195,7 +198,6 @@ namespace telaatividades
         private void btnAlterarStatus_Click_1(object sender, EventArgs e)
         {
             try
-
             {
 
                 if (lstAtividades.SelectedItems.Count > 0) // Verifica se há uma linha selecionada
@@ -206,16 +208,15 @@ namespace telaatividades
                     string codigo = lstAtividades.SelectedItems[0].SubItems[0].Text;
                     string status = lstAtividades.SelectedItems[0].SubItems[5].Text;
                     string situacao = "Finalizado";
-
-                    DialogResult opcaoDigitada = MessageBox.Show("Tem certeza que deseja alterar o status com o código: " + codigo + ", para Finalizado?",
+                    string pendencia = "Pendente";
+                    
+                    DialogResult opcaoDigitada = MessageBox.Show("Tem certeza que deseja alterar o status com o código: " + codigo,
                                             "Tem certeza?",
                                             MessageBoxButtons.YesNo,
                                             MessageBoxIcon.Warning);
 
                     if (opcaoDigitada == DialogResult.Yes)
                     {
-                        // cria a conexão com o banco de dados
-
                         Conexao = new MySqlConnection(data_source);
 
                         Conexao.Open();
@@ -231,91 +232,89 @@ namespace telaatividades
 
                         cmd.Prepare();
 
-                        //Update 
+                        if (status == pendencia)
+                        {
+  
+                            //Update 
 
-                        cmd.CommandText = $"UPDATE `tarefa` SET " +
+                            cmd.CommandText = $"UPDATE `tarefa` SET " +
 
-                            $"situacao = @situacao " +
+                                $"situacao = @situacao " +
 
-                            $"WHERE id = @codigo";
+                                $"WHERE id = @codigo";
 
-                        cmd.Parameters.AddWithValue("@codigo", codigo);
+                            cmd.Parameters.AddWithValue("@codigo", codigo);
 
-                        cmd.Parameters.AddWithValue("@situacao", situacao);
+                            cmd.Parameters.AddWithValue("@situacao", situacao);
 
-                        // Set na situacao = finalizado
 
-                        // where codigo =
+                            MessageBox.Show($"O status com o código {codigo} foi alterado para 'Finalizado' com Sucesso!",
+
+                                "Sucesso",
+
+                                MessageBoxButtons.OK,
+
+                                MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+
+                                cmd.CommandText = $"UPDATE `tarefa` SET " +
+
+                                $"situacao = @situacao " +
+
+                                $"WHERE id = @codigo";
+
+                                cmd.Parameters.AddWithValue("@codigo", codigo);
+
+                                cmd.Parameters.AddWithValue("@situacao", pendencia);
+
+
+                                MessageBox.Show($"O status com o código {codigo} foi alterado 'Pendente' com Sucesso!",
+
+                                    "Sucesso",
+
+                                    MessageBoxButtons.OK,
+
+                                    MessageBoxIcon.Information);
+                        }
+
                         cmd.ExecuteNonQuery();
-
-                        //Mensagem de sucesso
-
-                        MessageBox.Show($"O status com o código {codigo} foi alterado com Sucesso!",
-
-                            "Sucesso",
-
-                            MessageBoxButtons.OK,
-
-                            MessageBoxIcon.Information);
                     }
 
-                    carregar_atividades();
-
+                        
                 }
-            }
 
+                    carregar_atividades();
+            }
             catch (MySqlException ex)
-
             {
-
                 //Trata erros relacionados ao MySQL
-
                 MessageBox.Show("Erro " + ex.Number + " ocorreu: " + ex.Message,
-
                     "Erro",
-
                     MessageBoxButtons.OK,
-
                     MessageBoxIcon.Error);
-
             }
-
             catch (Exception ex)
-
             {
 
                 //Trata outros tipos de erro
-
                 MessageBox.Show("Ocorreu: " + ex.Message,
-
                     "Erro",
-
                     MessageBoxButtons.OK,
-
                     MessageBoxIcon.Error);
-
             }
-
             finally
-
             {
 
                 //Garante que a conexão com o banco de dados será fechada, mesmo se ocorrer erro
-
                 if (Conexao != null && Conexao.State == ConnectionState.Open)
-
                 {
-
                     Conexao.Close();
-
                     //Teste de fechamento de banco
-
                     //MessageBox.Show("Conexão fechada com sucesso");
-
                 }
-
             }
-
         }
 
         private void btnExcluir_Click(object sender, EventArgs e)
@@ -327,7 +326,6 @@ namespace telaatividades
         {
             try
             {
-
                 if (lstAtividades.SelectedItems.Count > 0) // Verifica se há uma linha selecionada
                 {
 
@@ -399,15 +397,13 @@ namespace telaatividades
 
         private void btnTelaCadastrodeAtividades_Click(object sender, EventArgs e)
         {
-  
-            frmCadastrodeAtividades frmCadastroAtividades = new frmCadastrodeAtividades("","","","","","");
-            frmCadastroAtividades.Show();
-            this.Hide();
+            frmPerguntadeSeguranca.navegabilidade(new frmCadastrodeAtividades("", "", "", "", "", ""), this);
+
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
         }
 
         

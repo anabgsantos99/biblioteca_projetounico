@@ -229,5 +229,25 @@ namespace casdatrodefuncionaria.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48 {
+            get {
+                object obj = ResourceManager.GetObject("visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48 {
+            get {
+                object obj = ResourceManager.GetObject("visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

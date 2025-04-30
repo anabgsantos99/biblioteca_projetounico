@@ -30,19 +30,22 @@ namespace casdatrodefuncionaria
         private void InitializeComponent()
         {
             this.panelFundo = new System.Windows.Forms.Panel();
+            this.pbMostrar2 = new System.Windows.Forms.PictureBox();
+            this.pbEsconder2 = new System.Windows.Forms.PictureBox();
+            this.pbMostrar = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pbSenha = new System.Windows.Forms.PictureBox();
+            this.pbResposta = new System.Windows.Forms.PictureBox();
             this.txtRespostaSeguranca = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.txtConfirmarSenha = new System.Windows.Forms.TextBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pbConfirmarSenha = new System.Windows.Forms.PictureBox();
+            this.pbEmail = new System.Windows.Forms.PictureBox();
             this.txtNome = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbUsuario = new System.Windows.Forms.PictureBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.comboBoxPerguntaSeguranca = new System.Windows.Forms.ComboBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pbPergunta = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.lblLogin = new System.Windows.Forms.LinkLabel();
             this.lblSenha = new System.Windows.Forms.Label();
@@ -52,13 +55,18 @@ namespace casdatrodefuncionaria
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblPerguntaSeguranca = new System.Windows.Forms.Label();
             this.lblRespostaSeguranca = new System.Windows.Forms.Label();
+            this.pbEsconder = new System.Windows.Forms.PictureBox();
             this.panelFundo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbResposta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmail)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).BeginInit();
             this.SuspendLayout();
             // 
             // panelFundo
@@ -66,19 +74,22 @@ namespace casdatrodefuncionaria
             this.panelFundo.BackColor = System.Drawing.Color.Transparent;
             this.panelFundo.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Cadastro_Func__2_;
             this.panelFundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelFundo.Controls.Add(this.pbMostrar2);
+            this.panelFundo.Controls.Add(this.pbEsconder2);
+            this.panelFundo.Controls.Add(this.pbMostrar);
             this.panelFundo.Controls.Add(this.panel1);
-            this.panelFundo.Controls.Add(this.pictureBox6);
-            this.panelFundo.Controls.Add(this.pictureBox7);
+            this.panelFundo.Controls.Add(this.pbSenha);
+            this.panelFundo.Controls.Add(this.pbResposta);
             this.panelFundo.Controls.Add(this.txtRespostaSeguranca);
             this.panelFundo.Controls.Add(this.txtSenha);
             this.panelFundo.Controls.Add(this.txtConfirmarSenha);
-            this.panelFundo.Controls.Add(this.pictureBox4);
-            this.panelFundo.Controls.Add(this.pictureBox2);
+            this.panelFundo.Controls.Add(this.pbConfirmarSenha);
+            this.panelFundo.Controls.Add(this.pbEmail);
             this.panelFundo.Controls.Add(this.txtNome);
-            this.panelFundo.Controls.Add(this.pictureBox1);
+            this.panelFundo.Controls.Add(this.pbUsuario);
             this.panelFundo.Controls.Add(this.txtEmail);
             this.panelFundo.Controls.Add(this.comboBoxPerguntaSeguranca);
-            this.panelFundo.Controls.Add(this.pictureBox5);
+            this.panelFundo.Controls.Add(this.pbPergunta);
             this.panelFundo.Controls.Add(this.label1);
             this.panelFundo.Controls.Add(this.lblLogin);
             this.panelFundo.Controls.Add(this.lblSenha);
@@ -88,11 +99,48 @@ namespace casdatrodefuncionaria
             this.panelFundo.Controls.Add(this.lblEmail);
             this.panelFundo.Controls.Add(this.lblPerguntaSeguranca);
             this.panelFundo.Controls.Add(this.lblRespostaSeguranca);
+            this.panelFundo.Controls.Add(this.pbEsconder);
             this.panelFundo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFundo.Location = new System.Drawing.Point(0, 0);
             this.panelFundo.Name = "panelFundo";
             this.panelFundo.Size = new System.Drawing.Size(1604, 861);
             this.panelFundo.TabIndex = 0;
+            // 
+            // pbMostrar2
+            // 
+            this.pbMostrar2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbMostrar2.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbMostrar2.Location = new System.Drawing.Point(1265, 502);
+            this.pbMostrar2.Name = "pbMostrar2";
+            this.pbMostrar2.Size = new System.Drawing.Size(25, 25);
+            this.pbMostrar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMostrar2.TabIndex = 23;
+            this.pbMostrar2.TabStop = false;
+            this.pbMostrar2.Click += new System.EventHandler(this.pbMostrar2_Click);
+            // 
+            // pbEsconder2
+            // 
+            this.pbEsconder2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEsconder2.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbEsconder2.Location = new System.Drawing.Point(1265, 502);
+            this.pbEsconder2.Name = "pbEsconder2";
+            this.pbEsconder2.Size = new System.Drawing.Size(25, 25);
+            this.pbEsconder2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEsconder2.TabIndex = 22;
+            this.pbEsconder2.TabStop = false;
+            this.pbEsconder2.Click += new System.EventHandler(this.pbEsconder2_Click);
+            // 
+            // pbMostrar
+            // 
+            this.pbMostrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbMostrar.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbMostrar.Location = new System.Drawing.Point(1265, 420);
+            this.pbMostrar.Name = "pbMostrar";
+            this.pbMostrar.Size = new System.Drawing.Size(25, 25);
+            this.pbMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMostrar.TabIndex = 19;
+            this.pbMostrar.TabStop = false;
+            this.pbMostrar.Click += new System.EventHandler(this.pbMostrar_Click);
             // 
             // panel1
             // 
@@ -101,115 +149,125 @@ namespace casdatrodefuncionaria
             this.panel1.Size = new System.Drawing.Size(0, 0);
             this.panel1.TabIndex = 18;
             // 
-            // pictureBox6
+            // pbSenha
             // 
-            this.pictureBox6.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
-            this.pictureBox6.Location = new System.Drawing.Point(812, 430);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(39, 32);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 17;
-            this.pictureBox6.TabStop = false;
+            this.pbSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbSenha.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
+            this.pbSenha.Location = new System.Drawing.Point(812, 418);
+            this.pbSenha.Name = "pbSenha";
+            this.pbSenha.Size = new System.Drawing.Size(39, 32);
+            this.pbSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbSenha.TabIndex = 17;
+            this.pbSenha.TabStop = false;
             // 
-            // pictureBox7
+            // pbResposta
             // 
-            this.pictureBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
-            this.pictureBox7.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
-            this.pictureBox7.Location = new System.Drawing.Point(815, 675);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(39, 32);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 16;
-            this.pictureBox7.TabStop = false;
+            this.pbResposta.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbResposta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
+            this.pbResposta.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
+            this.pbResposta.Location = new System.Drawing.Point(815, 660);
+            this.pbResposta.Name = "pbResposta";
+            this.pbResposta.Size = new System.Drawing.Size(39, 32);
+            this.pbResposta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbResposta.TabIndex = 16;
+            this.pbResposta.TabStop = false;
             // 
             // txtRespostaSeguranca
             // 
+            this.txtRespostaSeguranca.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtRespostaSeguranca.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.txtRespostaSeguranca.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtRespostaSeguranca.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtRespostaSeguranca.ForeColor = System.Drawing.Color.White;
-            this.txtRespostaSeguranca.Location = new System.Drawing.Point(857, 679);
+            this.txtRespostaSeguranca.Location = new System.Drawing.Point(857, 664);
             this.txtRespostaSeguranca.Name = "txtRespostaSeguranca";
             this.txtRespostaSeguranca.Size = new System.Drawing.Size(422, 25);
-            this.txtRespostaSeguranca.TabIndex = 15;
+            this.txtRespostaSeguranca.TabIndex = 5;
             this.txtRespostaSeguranca.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtSenha
             // 
+            this.txtSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.txtSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenha.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenha.ForeColor = System.Drawing.Color.White;
-            this.txtSenha.Location = new System.Drawing.Point(857, 434);
+            this.txtSenha.Location = new System.Drawing.Point(857, 422);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(422, 25);
-            this.txtSenha.TabIndex = 0;
+            this.txtSenha.TabIndex = 2;
             this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtConfirmarSenha
             // 
+            this.txtConfirmarSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtConfirmarSenha.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.txtConfirmarSenha.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtConfirmarSenha.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmarSenha.ForeColor = System.Drawing.Color.White;
-            this.txtConfirmarSenha.Location = new System.Drawing.Point(857, 514);
+            this.txtConfirmarSenha.Location = new System.Drawing.Point(857, 502);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
             this.txtConfirmarSenha.Size = new System.Drawing.Size(422, 25);
-            this.txtConfirmarSenha.TabIndex = 14;
+            this.txtConfirmarSenha.TabIndex = 3;
             this.txtConfirmarSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox4
+            // pbConfirmarSenha
             // 
-            this.pictureBox4.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
-            this.pictureBox4.Location = new System.Drawing.Point(812, 510);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(39, 32);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 1;
-            this.pictureBox4.TabStop = false;
+            this.pbConfirmarSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbConfirmarSenha.Image = global::casdatrodefuncionaria.Properties.Resources.icone_cadeado;
+            this.pbConfirmarSenha.Location = new System.Drawing.Point(812, 498);
+            this.pbConfirmarSenha.Name = "pbConfirmarSenha";
+            this.pbConfirmarSenha.Size = new System.Drawing.Size(39, 32);
+            this.pbConfirmarSenha.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbConfirmarSenha.TabIndex = 1;
+            this.pbConfirmarSenha.TabStop = false;
             // 
-            // pictureBox2
+            // pbEmail
             // 
-            this.pictureBox2.Image = global::casdatrodefuncionaria.Properties.Resources.icone_usuario;
-            this.pictureBox2.Location = new System.Drawing.Point(812, 342);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(39, 32);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
+            this.pbEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEmail.Image = global::casdatrodefuncionaria.Properties.Resources.icone_usuario;
+            this.pbEmail.Location = new System.Drawing.Point(812, 335);
+            this.pbEmail.Name = "pbEmail";
+            this.pbEmail.Size = new System.Drawing.Size(39, 32);
+            this.pbEmail.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbEmail.TabIndex = 13;
+            this.pbEmail.TabStop = false;
             // 
             // txtNome
             // 
+            this.txtNome.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.txtNome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNome.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNome.ForeColor = System.Drawing.Color.White;
-            this.txtNome.Location = new System.Drawing.Point(857, 346);
+            this.txtNome.Location = new System.Drawing.Point(857, 339);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(422, 25);
-            this.txtNome.TabIndex = 0;
+            this.txtNome.TabIndex = 1;
             this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // pictureBox1
+            // pbUsuario
             // 
-            this.pictureBox1.Image = global::casdatrodefuncionaria.Properties.Resources.icone_usuario;
-            this.pictureBox1.Location = new System.Drawing.Point(812, 264);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(39, 32);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.pbUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbUsuario.Image = global::casdatrodefuncionaria.Properties.Resources.icone_usuario;
+            this.pbUsuario.Location = new System.Drawing.Point(812, 255);
+            this.pbUsuario.Name = "pbUsuario";
+            this.pbUsuario.Size = new System.Drawing.Size(39, 32);
+            this.pbUsuario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbUsuario.TabIndex = 1;
+            this.pbUsuario.TabStop = false;
             // 
             // txtEmail
             // 
+            this.txtEmail.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
             this.txtEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEmail.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.ForeColor = System.Drawing.Color.White;
-            this.txtEmail.Location = new System.Drawing.Point(857, 268);
+            this.txtEmail.Location = new System.Drawing.Point(857, 259);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(422, 25);
-            this.txtEmail.TabIndex = 2;
+            this.txtEmail.TabIndex = 0;
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // comboBoxPerguntaSeguranca
@@ -229,18 +287,18 @@ namespace casdatrodefuncionaria
             this.comboBoxPerguntaSeguranca.Location = new System.Drawing.Point(860, 588);
             this.comboBoxPerguntaSeguranca.Name = "comboBoxPerguntaSeguranca";
             this.comboBoxPerguntaSeguranca.Size = new System.Drawing.Size(435, 32);
-            this.comboBoxPerguntaSeguranca.TabIndex = 2;
+            this.comboBoxPerguntaSeguranca.TabIndex = 4;
             // 
-            // pictureBox5
+            // pbPergunta
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
-            this.pictureBox5.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
-            this.pictureBox5.Location = new System.Drawing.Point(805, 588);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(58, 32);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
+            this.pbPergunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(74)))), ((int)(((byte)(141)))));
+            this.pbPergunta.Image = global::casdatrodefuncionaria.Properties.Resources.icone_pergunta;
+            this.pbPergunta.Location = new System.Drawing.Point(805, 588);
+            this.pbPergunta.Name = "pbPergunta";
+            this.pbPergunta.Size = new System.Drawing.Size(58, 32);
+            this.pbPergunta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbPergunta.TabIndex = 1;
+            this.pbPergunta.TabStop = false;
             // 
             // label1
             // 
@@ -285,14 +343,14 @@ namespace casdatrodefuncionaria
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCadastrar.AutoSize = true;
             this.btnCadastrar.BackColor = System.Drawing.Color.White;
             this.btnCadastrar.FlatAppearance.BorderSize = 0;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
-            this.btnCadastrar.Location = new System.Drawing.Point(912, 729);
+            this.btnCadastrar.Location = new System.Drawing.Point(912, 725);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(276, 34);
             this.btnCadastrar.TabIndex = 11;
@@ -365,6 +423,18 @@ namespace casdatrodefuncionaria
             this.lblRespostaSeguranca.TabIndex = 10;
             this.lblRespostaSeguranca.Text = "Resposta";
             // 
+            // pbEsconder
+            // 
+            this.pbEsconder.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEsconder.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbEsconder.Location = new System.Drawing.Point(1265, 420);
+            this.pbEsconder.Name = "pbEsconder";
+            this.pbEsconder.Size = new System.Drawing.Size(25, 25);
+            this.pbEsconder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEsconder.TabIndex = 21;
+            this.pbEsconder.TabStop = false;
+            this.pbEsconder.Click += new System.EventHandler(this.pbEsconder_Click);
+            // 
             // frmCadastroFuncionaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -380,12 +450,16 @@ namespace casdatrodefuncionaria
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panelFundo.ResumeLayout(false);
             this.panelFundo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbResposta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEmail)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -393,27 +467,31 @@ namespace casdatrodefuncionaria
         #endregion
         private System.Windows.Forms.Panel panelFundo;
         private System.Windows.Forms.LinkLabel lblLogin;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pbEmail;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.Button btnCadastrar;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblConfirmarSenha;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pbConfirmarSenha;
         private System.Windows.Forms.Label lblPerguntaSeguranca;
         private System.Windows.Forms.Label lblRespostaSeguranca;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pbPergunta;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.TextBox txtRespostaSeguranca;
         private System.Windows.Forms.TextBox txtConfirmarSenha;
         private System.Windows.Forms.ComboBox comboBoxPerguntaSeguranca;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbUsuario;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pbSenha;
+        private System.Windows.Forms.PictureBox pbResposta;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pbMostrar;
+        private System.Windows.Forms.PictureBox pbEsconder;
+        private System.Windows.Forms.PictureBox pbMostrar2;
+        private System.Windows.Forms.PictureBox pbEsconder2;
     }
 }
 

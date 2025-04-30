@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using teladelogin;
 using telaatividades;
+using cadastrodeatividades;
+
 
 namespace casdatrodefuncionaria
 {
@@ -18,7 +20,7 @@ namespace casdatrodefuncionaria
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPerguntadeSegurança());
+            Application.Run(new frmTeladeLogin()) ;
         }
     }
 }

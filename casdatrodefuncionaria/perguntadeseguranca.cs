@@ -14,13 +14,27 @@ using System.Runtime.CompilerServices;
 
 namespace casdatrodefuncionaria
 {
-    public partial class frmPerguntadeSegurança : Form
+    public partial class frmPerguntadeSeguranca : Form
     {
-        public frmPerguntadeSegurança()
+        public frmPerguntadeSeguranca()
         {
             InitializeComponent();
+
+            txtDigiteSeuEmail.KeyDown += textBox_KeyDown;
+            comboBoxPerguntaSeguranca.KeyDown += textBox_KeyDown;
+            txtResposta.KeyDown += textBox_KeyDown;
+
+            txtResposta.GotFocus += txtResposta_GotFocus;
+
         }
 
+        private void txtResposta_GotFocus(object sender, EventArgs e)
+        {
+            if (txtResposta.Text == "Resposta")
+            {
+                txtResposta.Text = "";
+            }
+        }
 
         private void lblLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -160,5 +174,15 @@ namespace casdatrodefuncionaria
                 }
             }
         }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true; // Evita o som "beep"
+                this.SelectNextControl((Control)sender, true, true, true, true);
+            }
+        }
+
     }
 }

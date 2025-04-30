@@ -1,26 +1,17 @@
 ﻿using System;
-
 using System.Collections.Generic;
-
 using System.ComponentModel;
-
 using System.Data;
-
 using System.Drawing;
-
 using System.Linq;
-
 using System.Text;
-
 using System.Threading.Tasks;
-
 using System.Windows.Forms;
-
 using MySql.Data.MySqlClient;
-
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
-
 using telaatividades;
+using casdatrodefuncionaria;
+using teladelogin;
 
 
 namespace cadastrodeatividades
@@ -59,14 +50,13 @@ namespace cadastrodeatividades
 
         private void pbSaida_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
         }
 
         private void pbTelaAtividade_Click(object sender, EventArgs e)
         {
-            frmTeladeAtividade frmAtividades = new frmTeladeAtividade();
-            frmAtividades.Show();
-            this.Hide();
+            frmPerguntadeSeguranca.navegabilidade(new frmTeladeAtividade(), this);
+
         }
 
         public frmCadastrodeAtividades(string codigo, string ano, string atividade, string semana, string mes, string funcionaria)
@@ -88,6 +78,13 @@ namespace cadastrodeatividades
             this.mes = mes;
 
             this.funcionaria = funcionaria;
+
+
+            comboBoxFuncionaria.KeyDown += textBox_KeyDown;
+            comboBoxAno.KeyDown += textBox_KeyDown;
+            comboBoxMes.KeyDown += textBox_KeyDown;
+            comboBoxSemana.KeyDown += textBox_KeyDown;
+            comboBoxAtividade.KeyDown += textBox_KeyDown;
 
         }
 
@@ -248,9 +245,7 @@ namespace cadastrodeatividades
 
                 codigo = null;
 
-                frmTeladeAtividade frmAtividades = new frmTeladeAtividade();
-                frmAtividades.Show();
-                this.Hide();
+                frmPerguntadeSeguranca.navegabilidade(new frmTeladeAtividade(), this);
 
             }
 
@@ -357,6 +352,16 @@ namespace cadastrodeatividades
 
             }
 
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                this.SelectNextControl((Control)sender, true, true, true, true);
+
+            }
         }
 
     }

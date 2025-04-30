@@ -1,7 +1,7 @@
 ﻿
 namespace casdatrodefuncionaria
 {
-    partial class frmPerguntadeSegurança
+    partial class frmPerguntadeSeguranca
     {
         /// <summary>
         /// Required designer variable.
@@ -123,7 +123,7 @@ namespace casdatrodefuncionaria
             this.txtDigiteSeuEmail.Location = new System.Drawing.Point(593, 395);
             this.txtDigiteSeuEmail.Name = "txtDigiteSeuEmail";
             this.txtDigiteSeuEmail.Size = new System.Drawing.Size(417, 19);
-            this.txtDigiteSeuEmail.TabIndex = 15;
+            this.txtDigiteSeuEmail.TabIndex = 0;
             this.txtDigiteSeuEmail.Text = "Digite seu e-mail";
             this.txtDigiteSeuEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtDigiteSeuEmail.Click += new System.EventHandler(this.txtDigiteSeuEmail_Click);
@@ -146,7 +146,7 @@ namespace casdatrodefuncionaria
             this.comboBoxPerguntaSeguranca.Location = new System.Drawing.Point(653, 443);
             this.comboBoxPerguntaSeguranca.Name = "comboBoxPerguntaSeguranca";
             this.comboBoxPerguntaSeguranca.Size = new System.Drawing.Size(346, 26);
-            this.comboBoxPerguntaSeguranca.TabIndex = 16;
+            this.comboBoxPerguntaSeguranca.TabIndex = 1;
             // 
             // panelFundo
             // 
@@ -177,7 +177,7 @@ namespace casdatrodefuncionaria
             this.pbResposta.TabIndex = 17;
             this.pbResposta.TabStop = false;
             // 
-            // frmPerguntadeSegurança
+            // frmPerguntadeSeguranca
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -189,7 +189,7 @@ namespace casdatrodefuncionaria
             this.Controls.Add(this.panelFundo);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
-            this.Name = "frmPerguntadeSegurança";
+            this.Name = "frmPerguntadeSeguranca";
             this.Text = "Redefinir Senha";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).EndInit();

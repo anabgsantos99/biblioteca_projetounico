@@ -29,6 +29,7 @@ namespace teladelogin
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lblCriarConta = new System.Windows.Forms.LinkLabel();
             this.pbSenha = new System.Windows.Forms.PictureBox();
@@ -40,15 +41,23 @@ namespace teladelogin
             this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.rbLembreme = new System.Windows.Forms.RadioButton();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pbMostrar = new System.Windows.Forms.PictureBox();
+            this.pbEsconder = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__2_;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pbMostrar);
             this.panel1.Controls.Add(this.lblCriarConta);
             this.panel1.Controls.Add(this.pbSenha);
             this.panel1.Controls.Add(this.lblBoasvindas);
@@ -57,8 +66,9 @@ namespace teladelogin
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.lblEsqueciasenha);
             this.panel1.Controls.Add(this.txtEmail);
-            this.panel1.Controls.Add(this.txtSenha);
             this.panel1.Controls.Add(this.rbLembreme);
+            this.panel1.Controls.Add(this.pbEsconder);
+            this.panel1.Controls.Add(this.txtSenha);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
@@ -168,7 +178,7 @@ namespace teladelogin
             this.txtEmail.Location = new System.Drawing.Point(283, 418);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(409, 25);
-            this.txtEmail.TabIndex = 1;
+            this.txtEmail.TabIndex = 0;
             this.txtEmail.Text = "E-mail";
             this.txtEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtEmail.Click += new System.EventHandler(this.txtEmail_Click);
@@ -181,7 +191,7 @@ namespace teladelogin
             this.txtSenha.Location = new System.Drawing.Point(283, 512);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.Size = new System.Drawing.Size(409, 25);
-            this.txtSenha.TabIndex = 2;
+            this.txtSenha.TabIndex = 1;
             this.txtSenha.Text = "Senha";
             this.txtSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtSenha.Click += new System.EventHandler(this.txtSenha_Click);
@@ -190,6 +200,7 @@ namespace teladelogin
             // 
             this.rbLembreme.AutoSize = true;
             this.rbLembreme.BackColor = System.Drawing.Color.Transparent;
+            this.rbLembreme.ContextMenuStrip = this.contextMenuStrip1;
             this.rbLembreme.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbLembreme.ForeColor = System.Drawing.Color.White;
             this.rbLembreme.Location = new System.Drawing.Point(306, 569);
@@ -200,6 +211,47 @@ namespace teladelogin
             this.rbLembreme.Text = "Lembre-me";
             this.rbLembreme.UseVisualStyleBackColor = false;
             this.rbLembreme.CheckedChanged += new System.EventHandler(this.rbLembreme_CheckedChanged);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(148, 26);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(147, 22);
+            this.toolStripMenuItem1.Text = "Inserir senha";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // pbMostrar
+            // 
+            this.pbMostrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbMostrar.BackColor = System.Drawing.Color.White;
+            this.pbMostrar.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbMostrar.Location = new System.Drawing.Point(667, 512);
+            this.pbMostrar.Name = "pbMostrar";
+            this.pbMostrar.Size = new System.Drawing.Size(25, 25);
+            this.pbMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMostrar.TabIndex = 24;
+            this.pbMostrar.TabStop = false;
+            this.pbMostrar.Click += new System.EventHandler(this.pbMostrar_Click);
+            // 
+            // pbEsconder
+            // 
+            this.pbEsconder.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEsconder.BackColor = System.Drawing.Color.White;
+            this.pbEsconder.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbEsconder.Location = new System.Drawing.Point(667, 512);
+            this.pbEsconder.Name = "pbEsconder";
+            this.pbEsconder.Size = new System.Drawing.Size(25, 25);
+            this.pbEsconder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEsconder.TabIndex = 25;
+            this.pbEsconder.TabStop = false;
+            this.pbEsconder.Click += new System.EventHandler(this.pbEsconder_Click);
             // 
             // frmTeladeLogin
             // 
@@ -213,6 +265,9 @@ namespace teladelogin
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUsuario)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -230,6 +285,10 @@ namespace teladelogin
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label lblLogin;
         private System.Windows.Forms.LinkLabel lblCriarConta;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.PictureBox pbMostrar;
+        private System.Windows.Forms.PictureBox pbEsconder;
     }
 }
 

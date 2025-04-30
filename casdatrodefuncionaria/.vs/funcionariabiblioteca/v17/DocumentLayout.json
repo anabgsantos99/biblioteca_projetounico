@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:alterarsenha.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:teladelogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:telaatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:alterarsenha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -47,11 +47,11 @@
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodeatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:perguntadeseguranca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|c:\\users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{161E322B-9547-45FF-A511-6D70DC51448E}|telacadastrofuncionaria.csproj|solutionrelative:cadastrodefuncionaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -95,8 +95,7 @@
               "ViewState": "AgIAADUAAAAAAAAAAAAwwEcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T17:54:22.502Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -109,12 +108,11 @@
               "ViewState": "AgIAAMEAAAAAAAAAAAAcwNgAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T18:00:00.618Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "alterarsenha.cs",
               "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs",
               "RelativeDocumentMoniker": "alterarsenha.cs",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "perguntadeseguranca.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAAwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:35:55.322Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T17:35:55.322Z"
             },
             {
               "$type": "Document",
@@ -153,13 +150,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "teladelogin.cs",
               "DocumentMoniker": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs",
               "RelativeDocumentMoniker": "teladelogin.cs",
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\teladelogin.cs",
               "RelativeToolTip": "teladelogin.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAYwF8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAwwIAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T18:00:03.658Z",
               "EditorCaption": ""
@@ -174,8 +171,7 @@
               "RelativeToolTip": "alterarsenha.Designer.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAWwEcAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T19:46:27.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T19:46:27.788Z"
             },
             {
               "$type": "Document",
@@ -186,8 +182,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\alterarsenha.cs [Design]",
               "RelativeToolTip": "alterarsenha.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:27:05.19Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-28T17:27:05.19Z"
             },
             {
               "$type": "Document",
@@ -198,8 +193,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.cs [Design]",
               "RelativeToolTip": "cadastrodeatividades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T17:55:21.749Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-24T17:55:21.749Z"
             },
             {
               "$type": "Document",
@@ -211,8 +205,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:14:06.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T18:14:06.074Z"
             },
             {
               "$type": "Document",
@@ -224,8 +217,7 @@
               "RelativeToolTip": "cadastrodeatividades.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAEsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T17:55:17.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T17:55:17.171Z"
             },
             {
               "$type": "Document",
@@ -236,8 +228,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\perguntadeseguranca.cs [Design]",
               "RelativeToolTip": "perguntadeseguranca.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:13:56.532Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-28T17:13:56.532Z"
             },
             {
               "$type": "Document",
@@ -248,8 +239,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodefuncionaria.cs [Design]",
               "RelativeToolTip": "cadastrodefuncionaria.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T17:54:45.34Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-24T17:54:45.34Z"
             },
             {
               "$type": "Document",
@@ -260,8 +250,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\telaatividades.cs [Design]",
               "RelativeToolTip": "telaatividades.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:00:11.163Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-24T18:00:11.163Z"
             },
             {
               "$type": "Document",
@@ -298,8 +287,7 @@
               "RelativeToolTip": "telaatividades.Designer.cs",
               "ViewState": "AgIAAK8AAAAAAAAAAAAWwOEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T18:00:13.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T18:00:13.154Z"
             },
             {
               "$type": "Document",
@@ -310,8 +298,7 @@
               "ToolTip": "C:\\Users\\ana.bgsantos10\\source\\projetounico\\casdatrodefuncionaria\\cadastrodeatividades.resx",
               "RelativeToolTip": "cadastrodeatividades.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-04-24T17:59:02.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T17:59:02.707Z"
             }
           ]
         }

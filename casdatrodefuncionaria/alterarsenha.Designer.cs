@@ -37,9 +37,17 @@ namespace casdatrodefuncionaria
             this.btnAlterar = new System.Windows.Forms.Button();
             this.lblLogin = new System.Windows.Forms.LinkLabel();
             this.panelFundo = new System.Windows.Forms.Panel();
+            this.pbMostrar2 = new System.Windows.Forms.PictureBox();
+            this.pbEsconder2 = new System.Windows.Forms.PictureBox();
+            this.pbMostrar = new System.Windows.Forms.PictureBox();
+            this.pbEsconder = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbSenha)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).BeginInit();
             this.panelFundo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRedefinirSenha
@@ -64,7 +72,7 @@ namespace casdatrodefuncionaria
             this.txtNovaSenha.Location = new System.Drawing.Point(606, 448);
             this.txtNovaSenha.Name = "txtNovaSenha";
             this.txtNovaSenha.Size = new System.Drawing.Size(393, 19);
-            this.txtNovaSenha.TabIndex = 16;
+            this.txtNovaSenha.TabIndex = 0;
             this.txtNovaSenha.Text = "Nova Senha";
             this.txtNovaSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtNovaSenha.Click += new System.EventHandler(this.txtNovaSenha_Click);
@@ -79,7 +87,7 @@ namespace casdatrodefuncionaria
             this.txtConfirmarSenha.Location = new System.Drawing.Point(606, 520);
             this.txtConfirmarSenha.Name = "txtConfirmarSenha";
             this.txtConfirmarSenha.Size = new System.Drawing.Size(393, 19);
-            this.txtConfirmarSenha.TabIndex = 17;
+            this.txtConfirmarSenha.TabIndex = 1;
             this.txtConfirmarSenha.Text = "Confirme a senha";
             this.txtConfirmarSenha.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtConfirmarSenha.Click += new System.EventHandler(this.txtConfirmarSenha_Click);
@@ -146,18 +154,74 @@ namespace casdatrodefuncionaria
             // 
             this.panelFundo.BackgroundImage = global::casdatrodefuncionaria.Properties.Resources.Tela_de_Login__3_;
             this.panelFundo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelFundo.Controls.Add(this.pbMostrar2);
+            this.panelFundo.Controls.Add(this.pbEsconder2);
+            this.panelFundo.Controls.Add(this.pbMostrar);
             this.panelFundo.Controls.Add(this.pbConfirmarSenha);
             this.panelFundo.Controls.Add(this.pbSenha);
-            this.panelFundo.Controls.Add(this.txtNovaSenha);
             this.panelFundo.Controls.Add(this.lblLogin);
             this.panelFundo.Controls.Add(this.lblRedefinirSenha);
             this.panelFundo.Controls.Add(this.btnAlterar);
+            this.panelFundo.Controls.Add(this.pbEsconder);
+            this.panelFundo.Controls.Add(this.txtNovaSenha);
             this.panelFundo.Controls.Add(this.txtConfirmarSenha);
             this.panelFundo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFundo.Location = new System.Drawing.Point(0, 0);
             this.panelFundo.Name = "panelFundo";
             this.panelFundo.Size = new System.Drawing.Size(1604, 861);
             this.panelFundo.TabIndex = 22;
+            // 
+            // pbMostrar2
+            // 
+            this.pbMostrar2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbMostrar2.BackColor = System.Drawing.Color.White;
+            this.pbMostrar2.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbMostrar2.Location = new System.Drawing.Point(974, 517);
+            this.pbMostrar2.Name = "pbMostrar2";
+            this.pbMostrar2.Size = new System.Drawing.Size(25, 25);
+            this.pbMostrar2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMostrar2.TabIndex = 26;
+            this.pbMostrar2.TabStop = false;
+            this.pbMostrar2.Click += new System.EventHandler(this.pbMostrar2_Click);
+            // 
+            // pbEsconder2
+            // 
+            this.pbEsconder2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEsconder2.BackColor = System.Drawing.Color.White;
+            this.pbEsconder2.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbEsconder2.Location = new System.Drawing.Point(974, 517);
+            this.pbEsconder2.Name = "pbEsconder2";
+            this.pbEsconder2.Size = new System.Drawing.Size(25, 25);
+            this.pbEsconder2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEsconder2.TabIndex = 25;
+            this.pbEsconder2.TabStop = false;
+            this.pbEsconder2.Click += new System.EventHandler(this.pbEsconder2_Click);
+            // 
+            // pbMostrar
+            // 
+            this.pbMostrar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbMostrar.BackColor = System.Drawing.Color.White;
+            this.pbMostrar.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbMostrar.Location = new System.Drawing.Point(974, 445);
+            this.pbMostrar.Name = "pbMostrar";
+            this.pbMostrar.Size = new System.Drawing.Size(25, 25);
+            this.pbMostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbMostrar.TabIndex = 23;
+            this.pbMostrar.TabStop = false;
+            this.pbMostrar.Click += new System.EventHandler(this.pbMostrar_Click);
+            // 
+            // pbEsconder
+            // 
+            this.pbEsconder.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbEsconder.BackColor = System.Drawing.Color.White;
+            this.pbEsconder.Image = global::casdatrodefuncionaria.Properties.Resources.visibility_off_24dp_F7941D_FILL0_wght400_GRAD200_opsz48;
+            this.pbEsconder.Location = new System.Drawing.Point(974, 445);
+            this.pbEsconder.Name = "pbEsconder";
+            this.pbEsconder.Size = new System.Drawing.Size(25, 25);
+            this.pbEsconder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbEsconder.TabIndex = 24;
+            this.pbEsconder.TabStop = false;
+            this.pbEsconder.Click += new System.EventHandler(this.pbEsconder_Click);
             // 
             // frmRedefinirSenha
             // 
@@ -177,6 +241,10 @@ namespace casdatrodefuncionaria
             ((System.ComponentModel.ISupportInitialize)(this.pbConfirmarSenha)).EndInit();
             this.panelFundo.ResumeLayout(false);
             this.panelFundo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMostrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEsconder)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -191,5 +259,9 @@ namespace casdatrodefuncionaria
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.LinkLabel lblLogin;
         private System.Windows.Forms.Panel panelFundo;
+        private System.Windows.Forms.PictureBox pbMostrar;
+        private System.Windows.Forms.PictureBox pbMostrar2;
+        private System.Windows.Forms.PictureBox pbEsconder2;
+        private System.Windows.Forms.PictureBox pbEsconder;
     }
 }
