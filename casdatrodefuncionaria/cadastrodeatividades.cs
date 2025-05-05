@@ -88,6 +88,11 @@ namespace cadastrodeatividades
 
         }
 
+        private void frmCadastrodeAtividades_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
         public void limparBotao()
 
         {

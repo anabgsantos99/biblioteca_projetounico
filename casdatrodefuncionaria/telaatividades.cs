@@ -406,6 +406,9 @@ namespace telaatividades
             frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
         }
 
-        
+        private void frmTeladeAtividade_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

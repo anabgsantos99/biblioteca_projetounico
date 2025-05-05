@@ -123,12 +123,13 @@ namespace teladelogin
         private void lblCriarConta_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmPerguntadeSeguranca.navegabilidade(new frmCadastroFuncionaria(), this);
-            
+
         }
 
         private void lblEsqueciasenha_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             frmPerguntadeSeguranca.navegabilidade(new frmPerguntadeSeguranca(), this);
+
         }
 
         private void txtEmail_Click(object sender, EventArgs e)
@@ -274,6 +275,10 @@ namespace teladelogin
             }
         }
 
+        private void frmTeladeLogin_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 
 }

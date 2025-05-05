@@ -184,5 +184,9 @@ namespace casdatrodefuncionaria
             }
         }
 
+        private void frmPerguntadeSeguranca_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

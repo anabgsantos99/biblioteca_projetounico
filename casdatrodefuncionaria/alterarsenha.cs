@@ -171,5 +171,9 @@ namespace casdatrodefuncionaria
             }
         }
 
+        private void frmRedefinirSenha_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -338,6 +338,7 @@ namespace cadastrodeatividades
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Atividades";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmCadastrodeAtividades_FormClosed);
             this.Load += new System.EventHandler(this.frmCadastrodeAtividades_Load);
             this.panelTopo.ResumeLayout(false);
             this.panelTopo.PerformLayout();

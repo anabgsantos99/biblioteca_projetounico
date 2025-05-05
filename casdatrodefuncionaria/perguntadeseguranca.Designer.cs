@@ -192,6 +192,7 @@ namespace casdatrodefuncionaria
             this.Name = "frmPerguntadeSeguranca";
             this.Text = "Redefinir Senha";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmPerguntadeSeguranca_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pbPergunta)).EndInit();
             this.panelFundo.ResumeLayout(false);
             this.panelFundo.PerformLayout();

@@ -443,11 +443,11 @@ namespace casdatrodefuncionaria
             this.Controls.Add(this.panelFundo);
             this.DoubleBuffered = true;
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "frmCadastroFuncionaria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Funcionária";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmCadastroFuncionaria_FormClosed);
             this.panelFundo.ResumeLayout(false);
             this.panelFundo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbMostrar2)).EndInit();

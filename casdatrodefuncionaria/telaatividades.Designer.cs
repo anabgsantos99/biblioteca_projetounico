@@ -245,6 +245,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Atividades";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmTeladeAtividade_FormClosed);
             this.panelTopo_TeladeAtividades.ResumeLayout(false);
             this.panelTopo_TeladeAtividades.PerformLayout();
             this.ResumeLayout(false);

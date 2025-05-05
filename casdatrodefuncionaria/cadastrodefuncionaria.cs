@@ -34,8 +34,52 @@ namespace casdatrodefuncionaria
             txtConfirmarSenha.KeyDown += textBox_KeyDown;
             comboBoxPerguntaSeguranca.KeyDown += textBox_KeyDown;
             txtRespostaSeguranca.KeyDown += textBox_KeyDown;
-
         }
+
+        public static void visibilidade_senha(TextBox textBox, PictureBox showIcon, PictureBox hideIcon)
+        {
+            if (textBox.UseSystemPasswordChar)
+            {
+                textBox.UseSystemPasswordChar = false;
+                hideIcon.BringToFront();
+            }
+            else
+            {
+                textBox.UseSystemPasswordChar = true;
+                showIcon.BringToFront();
+            }
+        }
+
+        private void pbMostrar_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
+        }
+
+        private void pbEsconder_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
+        }
+
+        private void pbMostrar2_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void pbEsconder2_Click(object sender, EventArgs e)
+        {
+            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                e.SuppressKeyPress = true;
+                this.SelectNextControl((Control)sender, true, true, true, true);
+            }
+        }
+
+
         private bool IsValidEmail(string email)
         {
             string pattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
@@ -161,55 +205,10 @@ namespace casdatrodefuncionaria
 
         }
 
-        public static void visibilidade_senha(TextBox textBox, PictureBox showIcon, PictureBox hideIcon)
+        private void frmCadastroFuncionaria_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (textBox.UseSystemPasswordChar)
-            {
-                textBox.UseSystemPasswordChar = false;
-
-                hideIcon.BringToFront();
-            }
-            else
-            {
-                textBox.UseSystemPasswordChar = true;
-
-                showIcon.BringToFront();
-            }
+            Application.Exit();
         }
-
-        private void pbMostrar_Click(object sender, EventArgs e)
-        {
-            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
-
-        }
-
-        private void pbEsconder_Click(object sender, EventArgs e)
-        {
-            visibilidade_senha(txtSenha, pbMostrar, pbEsconder);
-            /*pbMostrar.BringToFront();
-            txtSenha.UseSystemPasswordChar = true;*/
-        }
-
-        private void pbMostrar2_Click(object sender, EventArgs e)
-        {
-            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
-        }
-
-        private void pbEsconder2_Click(object sender, EventArgs e)
-        {
-            visibilidade_senha(txtConfirmarSenha, pbMostrar2, pbEsconder2);
-        }
-
-        private void textBox_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                e.SuppressKeyPress = true;
-                this.SelectNextControl((Control)sender, true, true, true, true);
-
-            }
-        }
-
     }
 }
 
