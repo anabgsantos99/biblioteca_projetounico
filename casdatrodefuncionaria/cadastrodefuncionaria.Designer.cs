@@ -346,7 +346,10 @@ namespace casdatrodefuncionaria
             this.btnCadastrar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnCadastrar.AutoSize = true;
             this.btnCadastrar.BackColor = System.Drawing.Color.White;
+            this.btnCadastrar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCadastrar.FlatAppearance.BorderSize = 0;
+            this.btnCadastrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnCadastrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnCadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCadastrar.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));

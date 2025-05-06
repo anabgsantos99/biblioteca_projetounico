@@ -122,7 +122,10 @@ namespace casdatrodefuncionaria
             // 
             this.btnAlterar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlterar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAlterar.FlatAppearance.BorderSize = 0;
+            this.btnAlterar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAlterar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnAlterar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAlterar.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
             this.btnAlterar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));

@@ -98,12 +98,15 @@ namespace casdatrodefuncionaria
                         }
                     }
 
-                    if (senhaDigitada == senhaBanco && senhaDigitada == confirmaSenha)
+                    if (senhaDigitada == senhaBanco)
                     {
-                        MessageBox.Show("A senha não pode ser igual a anterior", "Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                        
+                        MessageBox.Show("A senha não pode ser igual a anterior", "Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);  
                     }
-                    else
+                    else if (senhaDigitada != confirmaSenha || senhaDigitada == string.Empty)
+                    {
+                        MessageBox.Show("As senha não conferem ou estão em branco", "Validação", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else if (senhaDigitada == confirmaSenha)
                     {
                         string atualizar = $"UPDATE `funcionaria` SET " +
                                             $"senha = @senha " +
@@ -120,6 +123,7 @@ namespace casdatrodefuncionaria
 
                         frmPerguntadeSeguranca.navegabilidade(new frmTeladeLogin(), this);
                     }
+                    
                 }
                 catch (MySqlException ex)
                 {

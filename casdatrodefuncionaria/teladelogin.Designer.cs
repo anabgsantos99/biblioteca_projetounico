@@ -155,7 +155,10 @@ namespace teladelogin
             // btnLogin
             // 
             this.btnLogin.BackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnLogin.FlatAppearance.BorderSize = 0;
+            this.btnLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold);
             this.btnLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));

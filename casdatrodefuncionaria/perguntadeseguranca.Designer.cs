@@ -62,7 +62,10 @@ namespace casdatrodefuncionaria
             // 
             this.btnRedefinirSenha.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnRedefinirSenha.BackColor = System.Drawing.Color.Transparent;
+            this.btnRedefinirSenha.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRedefinirSenha.FlatAppearance.BorderSize = 0;
+            this.btnRedefinirSenha.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRedefinirSenha.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnRedefinirSenha.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRedefinirSenha.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold);
             this.btnRedefinirSenha.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(29)))));
